@@ -54,6 +54,7 @@ ID | *uint* | Unique ID of the auth entry (auto increment)
 UserID | *uint* | ID of the user
 Token | *string* | Random GUID for the session
 Created | *DateTime* | DateTime when the session was created
+IsDestroy | *int* | 0:used <br /> 1:destory
 
 ### Happiness Data
 A table that stores all happiness data associated to an user.
