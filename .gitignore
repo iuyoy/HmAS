@@ -32,5 +32,5 @@
 *.dSYM/
 *.su
 
-# python
-.pyc
+src/util_0.php
+test.txt
