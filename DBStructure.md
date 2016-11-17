@@ -25,7 +25,7 @@ ID | *uint* | Unique ID of the user (auto increment)
 UserID | *uint* | ID of the user
 Weight | *double* | Weight in kg of the user
 Sportiness | *uint* | Sportiness of the user (low, medium, high)
-updatetime | *DateTime* | Time the user update these information
+Updatetime | *DateTime* | Time the user update these information
 
 ### Device
 A table that stores device information
@@ -45,7 +45,7 @@ ID | *uint* | Unique ID of the auth entry (auto increment)
 UserID | *uint* | ID of the user
 Token | *string* | Random GUID for the session
 Created | *DateTime* | DateTime when the session was created
-IsDestroy | *int* | 0:used <br /> 1:destory
+IsDestroy | *int* | 0:in use <br /> 1:destroyed
 
 ### Happiness Data
 A table that stores all happiness data associated to an user.

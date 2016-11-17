@@ -116,19 +116,3 @@ PositionLon | no | *Decimal(9,6)* | Current lon position of the user (GPS)
 Name | Type | Description
 --- | --- | ---
 Status | *int* | Status
-
-## Error Code List
-
-Code | Description
---- | ---
-General |
-10001 | A certain parameter is required, but it can't be found in request.
-10002 | Can't save a certain parameter. Maybe the format of the parameter is wrong
-User |
-20001 | Can't register new account. The database server may not run.
-20002 | Can't generate a token. The database server may not run.
-20011 | Email is wrong.
-20012 | Password is wrong.
-Sensor |
-30000 | Can't store the sensor data. The database server may not run.
-30001 | Can't find the token in database.
