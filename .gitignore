@@ -33,4 +33,5 @@
 *.su
 
 src/util_0.php
+src/config_server.php
 test.txt
