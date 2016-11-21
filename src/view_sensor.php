@@ -14,7 +14,12 @@ class SensorAction extends BaseAction{
             'activity' => 'checkInt',
             'sleepseconds' => 'checkInt',
             'positionlat' => 'checkDouble',
-            'positionlon' => 'checkDouble' );
+            'positionlon' => 'checkDouble',
+            'altitude' => 'checkDouble',
+            'acc_x' => 'checkInt',
+            'acc_y' => 'checkInt',
+            'acc_z' => 'checkInt',
+         );
 
         $ret = $this->check($requests, $requires, $optional);
         if($ret['Status'] === 1) {
